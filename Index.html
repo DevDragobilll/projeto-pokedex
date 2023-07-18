@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title> Pokédex </title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Inconsolata:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lilita+One&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="./src/css/styles.css">
+	<link rel="stylesheet" href="./src/css/reset.css">
+	<link rel="stylesheet" href="./src/css/scrollbar.css">
+</head>
+	<body>
+	<div class="fundo"></div>
+		<header>
+			<a href="#">
+				<img src="./src/imagem/pokeball2.gif" alt="pokeball" class="logo">
+			</a>
+			<center class="titulo">Pokédex</center>
+			<button id="botao-alterar-tema">
+				<img src="./src/imagem/sun.png" alt="imagem do sol" class="imagem-botao">
+			</button>
+		</header>
+		<main>
+			<ul class="listagem-pokemon">
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Bulbasaur</span>
+						<span>#001</span>
+					</div>
+					<img src="./src/imagem/bulbasaur.gif" alt="bulbasaur" class="gif">
+					<ul class="tipos">
+						<li class="tipo grama">Grama</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+					<p class="descricao">Há uma semente de planta em suas costas desde o dia que este pókemon nasce. A semente cresce lentamente.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Ivisaur</span>
+						<span>#002</span>
+					</div>
+					<img src="./src/imagem/ivysaur.gif" alt="ivysaur" class="gif">
+					<ul class="tipos">
+						<li class="tipo grama">Grama</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+					<p class="descricao">Quando o bulbo em suas costas cresce, parece perder a capacidade de ficar pé em suas patas traseiras.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Venusaur</span>
+						<span>#003</span>
+					</div>
+					<img src="./src/imagem/venusaur.gif" alt="venusaur" class="gif">
+					<ul class="tipos">
+						<li class="tipo grama">Grama</li>
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+					<p class="descricao">Sua planta floresce quando está absorvendo energia solar. Ele permanece em movimento para buscar luz solar.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Charmander</span>
+						<span>#004</span>
+					</div>
+					<img src="./src/imagem/charmander.gif" alt="charmander" class="gif">
+					<ul class="tipos">
+						<li class="tipo fogo">Fogo</li>
+					</ul>
+					<p class="descricao">Charmander tem uma capacidade, que permite que seus ataques do tipo Fogo cause 150% de dano se a sua saúde fica abaixo de 30%. Como uma habilidade natural, Charmander pode produzir chamas dentro de si e projetá-las de sua boca, o que significa que ele pode respirar fogo. A potência dos seus ataques de chama pode ser medido pelo tamanho da chama na sua cauda.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Charmeleon</span>
+						<span>#005</span>
+					</div>
+					<img src="./src/imagem/charmeleon.gif" alt="charmeleon" class="gif">
+					<ul class="tipos">
+						<li class="tipo fogo">Fogo</li>
+					</ul>
+					<p class="descricao">Charmeleon como suas outras formas evolutivas, pode respirar fogo. Seus poderes são muito maiores do que charmander.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Charizard</span>
+						<span>#006</span>
+					</div>
+					<img src="./src/imagem/charizard.gif" alt="charizard" class="gif">
+					<ul class="tipos">
+						<li class="tipo fogo">Fogo</li>
+					</ul>
+					<p class="descricao">Charizard é a ultima evolução de charmander após o charmeleon, charizard é capaz de cuspir fogo como as suas outras formas pré-evoloidas. No entanto, charizard em sua ultima evolução ele se torna um dragão com asas em suas costas.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Squirtle</span>
+						<span>#007</span>
+					</div>
+					<img src="./src/imagem/squirtle.gif" alt="squirtle" class="gif">
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+					<p class="descricao">Squirtle tem as capacidade, o que aumenta o poder de seus ataques do tipo água em 150%, se a sua saúde cai para 33% ou abaixo. Squirtle também tem a capacidade natural de atirar água de sua boca, que é onde a maior parte de seus ataques vem.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Wartortle</span>
+						<span>#008</span>
+					</div>
+					<img src="./src/imagem/wartortle.gif" alt="wartortle" class="gif">
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+					<p class="descricao">Wartortle é a evolução de squirtle. Ele controla habilmente suas orelhas e cauda peludas para manter o equilíbrio enquanto nada.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Blastoise</span>
+						<span>#009</span>
+					</div>
+					<img src="./src/imagem/blastoise.gif" alt="blastoise" class="gif">
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+					<p class="descricao">Blastoise é a ultima evolução de squirtle. Em suas costas tem dois canhões de foguete que disparam jatos de água capazes de perfurar o aço grosso. Ele esmaga seu inimigo sob seu corpo pesado para causar desmaios.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Cartepie</span>
+						<span>#010</span>
+					</div>
+					<img src="./src/imagem/caterpie.gif" alt="caterpie" class="gif">
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+					</ul>
+					<p class="descricao">Caterpie é um Pokémon inseto que se assemelha a uma lagarta verde com uma parte inferior amarela e cauda em forma de lágrima.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Metapod</span>
+						<span>#011</span>
+					</div>
+					<img src="./src/imagem/Metapod.gif" alt="metapod" class="gif">
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+					</ul>
+					<p class="descricao">Embora envolto em uma casca resistente, o corpo por dentro é macio. Não pode resistir a um ataque duro. Está esperando o momento de evoluir.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>butterfree</span>
+						<span>#012</span>
+					</div>
+					<img src="./src/imagem/butterfree.gif" alt="butterfly" class="gif">
+					<ul class="tipos">
+						<li class="tipo inseto">Inseto</li>
+						<li class="tipo voador">Voador</li>
+					</ul>
+					<p class="descricao">Butterfly é um Pokémon inseto lepidóptero que se assemelha a uma borboleta vagamente antropomórfica com um corpo roxo. Ele adora o néctar das flores e pode localizar canteiros de flores que tenham até pequenas quantidades de pólen.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Pidgey</span>
+						<span>#013</span>
+					</div>
+					<img src="./src/imagem/Pidgey.gif" alt="pidgey" class="gif">
+					<ul class="tipos">
+						<li class="tipo normal">Normal</li>
+						<li class="tipo voador">Voador</li>
+					</ul>
+					<p class="descricao">Muito dócil. Se atacado, muitas vezes chuta areia para se proteger, em vez de revidar.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Pidgeotto</span>
+						<span>#014</span>
+					</div>
+					<img src="./src/imagem/Pidgeotto.gif" alt="pidgeotto" class="gif">
+					<ul class="tipos">
+						<li class="tipo normal">Normal</li>
+						<li class="tipo voador">Voador</li>
+					</ul>
+					<p class="descricao">Este Pokémon está cheio de vitalidade. Ele voa constantemente em torno de seu grande território em busca de presas.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Pidgeot</span>
+						<span>#015</span>
+					</div>
+					<img src="./src/imagem/Pidgeot.gif" alt="pidgeot" class="gif">
+					<ul class="tipos">
+						<li class="tipo normal">Normal</li>
+						<li class="tipo voador">Voador</li>
+					</ul>
+					<p class="descricao">Este Pokémon voa na velocidade de Mach 2, buscando presas. Suas grandes garras são temidas como armas perversas.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Pikachu</span>
+						<span>#016</span>
+					</div>
+					<img src="./src/imagem/Pikachu.gif" alt="pikachu" class="gif">
+					<ul class="tipos">
+						<li class="tipo eletrico">Eletrico</li>
+					</ul>
+					<p class="descricao">Quando vários desses Pokémon se reúnem, sua eletricidade pode aumentar e causar tempestades elétricas.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Pichu</span>
+						<span>#017</span>
+					</div>
+					<img src="./src/imagem/Pichu.gif" alt="pichu" class="gif">
+					<ul class="tipos">
+						<li class="tipo eletrico">Eletrico</li>
+					</ul>
+					<p class="descricao">Apesar da aparência fofa deste Pokémon, aqueles que querem viver com um devem se preparar para receber seus choques elétricos.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Raichu</span>
+						<span>#018</span>
+					</div>
+					<img src="./src/imagem/Raichu.gif" alt="raichu" class="gif">
+					<ul class="tipos">
+						<li class="tipo eletrico">Eletrico</li>
+					</ul>
+					<p class="descricao">Se as bolsas elétricas em suas bochechas ficarem totalmente carregadas, ambas as orelhas ficarão eretas.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Krabby</span>
+						<span>#019</span>
+					</div>
+					<img src="./src/imagem/Krabby.gif" alt="krabby" class="gif">
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+					<p class="descricao">Se ele sente o perigo se aproximando, ele se cobre com bolhas de sua boca para parecer maior. Pode ser encontrado perto do mar.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Kingler</span>
+						<span>#020</span>
+					</div>
+					<img src="./src/imagem/Kingler.gif" alt="kingler" class="gif">
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+					<p class="descricao">A pinça maior tem força de 10.000 cavalos de potência. No entanto, é tão pesado que é difícil apontar.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Mankey</span>
+						<span>#021</span>
+					</div>
+					<img src="./src/imagem/Mankey.gif" alt="mankey" class="gif">
+					<ul class="tipos">
+						<li class="tipo lutador">Lutador</li>
+					</ul>
+					<p class="descricao">É extremamente rápido para raiva. Pode ser dócil em um momento e se debater no instante seguinte.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Primeape</span>
+						<span>#022</span>
+					</div>
+					<img src="./src/imagem/Primeape.gif" alt="primeape" class="gif">
+					<ul class="tipos">
+						<li class="tipo lutador">Lutador</li>
+					</ul>
+					<p class="descricao">Alguns pesquisadores teorizam que Primeape permanece com raiva mesmo quando dentro de uma Pokébola. Ele fica extremamente furioso se sentir que alguém está olhando para ele.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Annihilape</span>
+						<span>#023</span>
+					</div>
+					<img src="./src/imagem/Annihilape.gif" alt="annihilape" class="gif">
+					<ul class="tipos">
+						<li class="tipo lutador">Lutador</li>
+						<li class="tipo fantasma">Fantasma</li>
+					</ul>
+					<p class="descricao">Ele imbui seus punhos com o poder da raiva que mantinha escondida em seu coração. Os oponentes atingidos por esses punhos imbuídos serão despedaçados até o âmago.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Grimer</span>
+						<span>#024</span>
+					</div>
+					<img src="./src/imagem/Grimer.gif" alt="grimer" class="gif">
+					<ul class="tipos">
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+					<p class="descricao">Sua principal fonte de alimento são os resíduos industriais viscosos das fábricas.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Muk</span>
+						<span>#025</span>
+					</div>
+					<img src="./src/imagem/Muk.gif" alt="muk" class="gif">
+					<ul class="tipos">
+						<li class="tipo veneno">Veneno</li>
+					</ul>
+					<p class="descricao">É tão fedorento! O corpo de Muk contém elementos tóxicos e qualquer planta murcha quando passa por ele. Está densamente coberto com uma lama imunda e vil.</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Tauros</span>
+						<span>#026</span>
+					</div>
+					<img src="./src/imagem/tauros.gif" alt="tauros" class="gif">
+					<ul class="tipos">
+						<li class="tipo normal">normal</li>
+					</ul>
+					<p class="descricao">Uma vez que aponta para sua presa, ele faz uma carga de cabeça. É famoso por sua natureza violenta.</p>
+				</li>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Lapras</span>
+						<span>#027</span>
+					</div>
+					<img src="./src/imagem/lapras.gif" alt="Lapras" class="gif">
+					<ul class="tipos">
+						<li class="tipo agua">Água</li>
+					</ul>
+					<p>Adora cruzar o mar com pessoas e Pokémon nas costas. Ele entende a fala humana.
+					</p>
+				<li class="cartao-pokemon">
+					<div class="informacoes">
+						<span>Snorlax</span>
+						<span>#028</span>
+					</div>
+					<img src="./src/imagem/snorlax.gif" alt="snorlax" class="gif">
+					<ul class="tipos">
+						<li class="tipo normal">Normal</li>
+					</ul>
+					<p>Ele para de comer apenas para dormir. Ele não se sente cheio a menos que coma cerca de 900 libras por dia.
+					</p>
+				</li>
+				</li>
+		</main>
+
+		<script src="./src/js/index.js"></script>
+	</body>
+</html>
+
